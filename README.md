@@ -1,9 +1,5 @@
-# pytest cache directory #
+# Дипломный проект #
 
-This directory contains data from the pytest's cache plugin,
-which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
-
-**Do not** commit this to version control.
-
-See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more information.
-Дипломный проект
+#Первым заданием было составление SQL - запросов. Где мы проверяли отоброжается ли созданный заказ, а также проверены статусы заказов#
+#Вторым заданием нужно было создать автотест в Pycharm. Автотесты создавал заказ и делалал запрос по треку на получение заказа. ПроверЯЛ, что код ответа равен 200#  
+Для автотеста были установлены библиотеки Requests и Pytest. Автотест можно запустить с помощью команды "pytest create_test.py" 
