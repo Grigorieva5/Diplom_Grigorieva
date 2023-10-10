@@ -1,6 +1,6 @@
 import data
 import sender_stand_request
-# import data
+# Елена Григорьева, 9-я когорта — Финальный проект. Инженер по тестированию плюс
 
 
 # Получение запроса на получения заказа по треку заказа
@@ -10,7 +10,7 @@ def get_track_id():
 
 
 # Тест на проверку кода ответа 200
-def test_200():
+def test_get_order_by_track():
     track_id = get_track_id()
     get_response = sender_stand_request.get_track_id(track_id)
     assert get_response.status_code == 200
